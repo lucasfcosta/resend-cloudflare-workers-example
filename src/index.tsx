@@ -10,8 +10,8 @@ export default {
     const resend = new Resend(env.RESEND_API_KEY);
 
     const data = await resend.emails.send({
-      from: 'Acme <onboarding@resend.dev>',
-      to: ['delivered@resend.dev'],
+      from: 'Acme <test@resendrocks.com>',
+      to: ['lucas+resendtest@lucasfcosta.com'],
       subject: 'hello world',
       react: <EmailTemplate firstName="John" />,
     });
