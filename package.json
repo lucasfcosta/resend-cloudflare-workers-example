@@ -8,6 +8,7 @@
     "lint": "biome check ."
   },
   "dependencies": {
+    "@react-email/render": "^1.2.0",
     "react": "19.1.0",
     "react-dom": "19.1.0",
     "resend": "6.0.1"
