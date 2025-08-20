@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@react-email/render':
-        specifier: ^1.2.0
-        version: 1.2.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+        specifier: https://pkg.pr.new/resend/react-email/@react-email/render@2225
+        version: https://pkg.pr.new/resend/react-email/@react-email/render@2225(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       react:
         specifier: 19.1.0
         version: 19.1.0
@@ -19,7 +19,7 @@ importers:
         version: 19.1.0(react@19.1.0)
       resend:
         specifier: 6.0.1
-        version: 6.0.1(@react-email/render@1.2.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0))
+        version: 6.0.1(@react-email/render@https://pkg.pr.new/resend/react-email/@react-email/render@2225(react-dom@19.1.0(react@19.1.0))(react@19.1.0))
     devDependencies:
       '@biomejs/biome':
         specifier: 1.9.4
@@ -426,8 +426,9 @@ packages:
   '@poppinss/exception@1.2.2':
     resolution: {integrity: sha512-m7bpKCD4QMlFCjA/nKTs23fuvoVFoA83brRKmObCUNmi/9tVu8Ve3w4YQAnJu4q3Tjf5fr685HYIC/IA2zHRSg==}
 
-  '@react-email/render@1.2.0':
-    resolution: {integrity: sha512-5fpbV16VYR9Fmk8t7xiwPNAjxjdI8XzVtlx9J9OkhOsIHdr2s5DwAj8/MXzWa9qRYJyLirQ/l7rBSjjgyRAomw==}
+  '@react-email/render@https://pkg.pr.new/resend/react-email/@react-email/render@2225':
+    resolution: {tarball: https://pkg.pr.new/resend/react-email/@react-email/render@2225}
+    version: 1.2.0
     engines: {node: '>=18.0.0'}
     peerDependencies:
       react: ^18.0 || ^19.0 || ^19.0.0-rc
@@ -599,6 +600,7 @@ packages:
 
   resend@6.0.1:
     resolution: {integrity: sha512-xNZ0gKAOqQcH83lXsqNOwBbpKROnsZpQr9mXRdG6hrHTF9G9Il2pkoTRtq7rJzXMvCZX+I79oahsbSeaYOWRFA==}
+    version: 6.0.1
     engines: {node: '>=18'}
     peerDependencies:
       '@react-email/render': ^1.1.0
@@ -932,7 +934,7 @@ snapshots:
 
   '@poppinss/exception@1.2.2': {}
 
-  '@react-email/render@1.2.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
+  '@react-email/render@https://pkg.pr.new/resend/react-email/@react-email/render@2225(react-dom@19.1.0(react@19.1.0))(react@19.1.0)':
     dependencies:
       html-to-text: 9.0.5
       prettier: 3.5.3
@@ -1117,9 +1119,9 @@ snapshots:
 
   react@19.1.0: {}
 
-  resend@6.0.1(@react-email/render@1.2.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0)):
+  resend@6.0.1(@react-email/render@https://pkg.pr.new/resend/react-email/@react-email/render@2225(react-dom@19.1.0(react@19.1.0))(react@19.1.0)):
     optionalDependencies:
-      '@react-email/render': 1.2.0(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
+      '@react-email/render': https://pkg.pr.new/resend/react-email/@react-email/render@2225(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
 
   scheduler@0.26.0: {}
 
