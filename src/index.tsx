@@ -9,9 +9,12 @@ export default {
   ): Promise<Response> {
     const resend = new Resend(env.RESEND_API_KEY);
 
+    const from = `Acme <${env.FROM_EMAIL || 'onboarding@resend.dev'}>`
+    const to = [env.TO_EMAIL || 'delivered@resend.dev']
+
     const data = await resend.emails.send({
-      from: 'Acme <onboarding@resend.dev>',
-      to: ['delivered@resend.dev'],
+      from,
+      to,
       subject: 'hello world',
       react: <EmailTemplate firstName="John" />,
     });
